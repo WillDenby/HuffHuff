@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "huffhuff"
+version = "0.1.0"
+description = ""
+authors = ["WillDenby <119456795+WillDenby@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bitarray = "^2.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
