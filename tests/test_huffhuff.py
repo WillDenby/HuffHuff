@@ -1,7 +1,7 @@
 import os
 import tempfile
 import pytest
-from huffhuff.main import encode, decode  # Adjust import according to your project structure.
+from huffhuff.main import encode, decode  
 
 @pytest.fixture
 def sample_text():
