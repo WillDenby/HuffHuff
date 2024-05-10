@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "huffhuff"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "A Huffman encoder/decoder script for compressing non-binary files"
+license = "MIT"
 authors = ["WillDenby <119456795+WillDenby@users.noreply.github.com>"]
 readme = "README.md"
+repository = "https://github.com/WillDenby/huffhuff"
 
 [tool.poetry.dependencies]
 python = "^3.12"
